@@ -1,1 +1,4 @@
 BACKEND_HOST: backend.pavancloud5.online
+APP_LOCATION: /usr/share/nginx/html
+COMPONENT: frontend
+
