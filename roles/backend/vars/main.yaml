@@ -1,3 +1,5 @@
 MYSQL_HOST: mysql.pavancloud5.online
 MYSQL_PASSWORD: ExpenseApp@1
 MYSQL_USER: root
+APP_LOCATION: /app
+COMPONENT: backend
