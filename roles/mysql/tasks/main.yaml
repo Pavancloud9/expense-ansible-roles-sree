@@ -1,6 +1,7 @@
 - name: Install python libraries
   ansible.builtin.pip:
     name: "{{ item }}"
+    state: installed
   loop:
   - botocore
   - boto3
