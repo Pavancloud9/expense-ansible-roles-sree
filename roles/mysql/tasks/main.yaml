@@ -1,7 +1,10 @@
 - name: Install python libraries
   ansible.builtin.pip:
-    name: PyMySQL
-    executable: pip3.9
+    name: "{{ item }}"
+  loop:
+  - botocore
+  - boto3
+  - PyMySQL
 - name: install mysql-server
   ansible.builtin.package:
     name: mysql-server
